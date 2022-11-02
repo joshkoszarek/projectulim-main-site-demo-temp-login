@@ -85,10 +85,12 @@ const theLogin = document.querySelector(".login");
 const bigSignIn = document.getElementById("big-sign-up");
 const bigLogin = document.getElementById("big-login");
 const bigBtnContainer = document.querySelector(".sign-in-option-big-btns");
+
 profilePic.addEventListener("click", () => {
   console.log("hi");
   loggedInMenu.classList.toggle("opened");
 });
+/*
 if (loginStatus) {
   profilePic.classList.toggle("logged-in");
   loggedInMenu.classList.toggle("logged-in");
@@ -116,7 +118,9 @@ loginBtn.addEventListener("click", () => {
   menuIcon.classList.toggle("logged-in");
   loggedInMenu.classList.toggle("opened");
 });
+
 */
+/*
 signOutBtn.addEventListener("click", () => {
   console.log("hi");
   sessionStorage.removeItem("loginStatus");
@@ -138,9 +142,10 @@ signOutBtn.addEventListener("click", () => {
   localStorage.removeItem("loginStatus");
 });
 */
-
+/*
 loginBtn.addEventListener("click", () => {
   console.log("clicked");
   sessionStorage.removeItem("loggedOut");
   sessionStorage.setItem("loginStatus", "in");
 });
+*/
