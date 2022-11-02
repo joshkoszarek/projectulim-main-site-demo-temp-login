@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project ulim</title>
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="./main.css" />
+    <!--Favicon-->
+    <link
+      rel="icon"
+      href="./images/Screenshot 2022-03-22 191245.jpg"
+      type="image/png"
+      sizes="32x32"
+    />
+    <!--Remix Icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--Fontawesome icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Font-->
+    <link rel="stylesheet" href="https://use.typekit.net/lql8sso.css" />
+    <!--Sign-up page-->
+    <link rel="stylesheet" href="signup.html" />
+  </head>
+  <body>
+    <!--Header-->
+    <section class="header-container">
+      <div class="max-width-container">
+        <div class="top-nav-container">
+          <div class="course-btn">
+            <p class="courses">Courses</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="logo-container">
+            <a href="index.html">
+              <h1 class="projectulim">project ulim</h1>
+            </a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18.19"
+              height="31"
+              viewBox="0 0 18.19 31"
+            >
+              <g
+                id="Group_1"
+                data-name="Group 1"
+                transform="translate(5.43 5.5)"
+              >
+                <path
+                  id="Path_1"
+                  data-name="Path 1"
+                  d="M1789,906.828a2.24,2.24,0,1,0,4.426,0V883.641a2.262,2.262,0,0,1,4.524,0l2.11.017"
+                  transform="translate(-1792.93 -885.417)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-miterlimit="10"
+                  stroke-width="3"
+                />
+                <path
+                  id="Path_2"
+                  data-name="Path 2"
+                  d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z"
+                  transform="translate(8.76 -4)"
+                  fill="#fff"
+                />
+              </g>
+            </svg>
+          </div>
+          <div class="icon-container">
+            <i class="fa-solid fa-bars three-bars menu-icon logged-in"></i>
+            <a href="signup.html">
+              <p
+                class="sign-up-btn small-screen-hidden active"
+                id="big-sign-up"
+              >
+                Sign up
+              </p>
+            </a>
+            <a href="signup.html">
+              <p class="login-btn small-screen-hidden active" id="big-login">
+                Login
+              </p>
+            </a>
+
+            <img
+              src="./images/unnamed.jpg"
+              alt=""
+              class="profile-pic one logged-in"
+            />
+          </div>
+        </div>
+        <div class="drop-down-menu large-screen-hidden">
+          <a id="sign-in-press" href="signup.html">
+            <p class="sign-up-standard">Sign up</p>
+          </a>
+          <a href="signup.html">
+            <p class="login">Login</p>
+          </a>
+        </div>
+        <div class="drop-down-menu login logged-in opened">
+          <a href="profilepage.html">
+            <p class="view-profile">View profile</p>
+          </a>
+          <a href="#">
+            <p class="sign-out-standard">Sign out</p>
+          </a>
+        </div>
+        <div class="floating-course-container">
+          <p class="subject-title">Computer Science</p>
+          <div class="left-side-course-container">
+            <a href="classoverview.html">
+              <p class="class">
+                Introduction to Computer Science and Programming in Python
+              </p>
+            </a>
+            <p class="class">
+              Introduction to CS and Electrical Engineering: Digital
+              Communications
+            </p>
+            <p class="class">Discrete Mathematics</p>
+            <p class="class">Computation Structures</p>
+            <p class="class">Programming</p>
+            <p class="class">Introduction to Algorithms</p>
+            <p class="class">Machine Learing and Artificial Intelligence</p>
+          </div>
+          <div class="right-side-course-container">
+            <p class="class">Computer Systems Engineering</p>
+            <p class="class">Software Construction</p>
+            <p class="class">Design and Analysis of Algorithms</p>
+            <p class="class">Computer Graphics</p>
+            <p class="class">Computer Language Engineering</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Hero Section-->
+    <section class="hero-section">
+      <video src="./images/1st shot use.mp4" autoplay loop muted></video>
+      <div class="hero-section-container">
+        <div class="hero-messaging-container">
+          <div class="tag-line">
+            <h1>Unlearn what you have learned about college</h1>
+          </div>
+          <div class="product-description">
+            <p>
+              A CS degree made from MIT content, given the feel of Khan Academy,
+              and designed to outcompete fancy degrees.
+            </p>
+          </div>
+          <div class="free">
+            <p>Oh, and it's free...</p>
+          </div>
+          <div class="sign-up-btn btn-normal">
+            <a href="signup.html">
+              <button class="sign-up">Sign up</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Features Summary-->
+    <section class="features-summary-section">
+      <div class="features-section-grid-container">
+        <h1 class="title-section">College Re-Imagined.</h1>
+        <div class="features-container">
+          <h1 class="admission">No admissions</h1>
+          <h1 class="learning-experience">
+            The best learning experience and content
+          </h1>
+          <h1 class="outcompete">Outcompete fancy degrees</h1>
+        </div>
+      </div>
+    </section>
+    <!--Admissions-->
+    <section class="admissions-section">
+      <div class="admissions-section-container">
+        <div class="admissions-section-title-container">
+          <h4 class="section-title">Admissions</h4>
+          <h1 class="tee-up">We regret to inform you...</h1>
+        </div>
+        <div class="image-container">
+          <div class="text-description-container">
+            <h2 class="opening-statement">We don't have admissions.</h2>
+            <h2 class="triple-no">No essays. No loans. No applications.</h2>
+            <div class="just-sign-up">
+              <h2>Just</h2>
+              <button class="sign-up two">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Learning Experience-->
+    <section class="learning-experience-section">
+      <div class="learning-experience-section-container">
+        <div class="learning-experience-title-container">
+          <h4 class="section-title">Learning Experience</h4>
+          <h1 class="tee-up">Designed for Maximum Awesomeness</h1>
+        </div>
+        <div class="learning-experience-description-container">
+          <p>A full CS degree made from MIT content.</p>
+          <p>Adapted to feel like Khan Academy.</p>
+          <p>Self paced. Online. Mastery Learning.</p>
+          <button class="sign-up learn-more">Learn more</button>
+        </div>
+        <div class="learning-experience-image-container">
+          <div class="mit-logo-container">
+            <img class="mit-logo" src="./images/mitlogo.png" alt="" />
+          </div>
+          <div class="khan-logo-container">
+            <img class="khan-logo" src="./images/khanlogo.png" alt="" />
+          </div>
+          <div class="ulim-logo-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22.19"
+              height="35"
+              viewBox="0 0 22.19 35"
+              class="ulim"
+            >
+              <g
+                id="Group_1"
+                data-name="Group 1"
+                transform="translate(5.43 5.5)"
+              >
+                <path
+                  id="Path_1"
+                  data-name="Path 1"
+                  d="M1789,906.828a2.24,2.24,0,1,0,4.426,0V883.641a2.262,2.262,0,0,1,4.524,0l2.11.017"
+                  transform="translate(-1792.93 -885.417)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-miterlimit="10"
+                  stroke-width="3"
+                />
+                <path
+                  id="Path_2"
+                  data-name="Path 2"
+                  d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z"
+                  transform="translate(8.76 -4)"
+                  fill="#fff"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--How It Works-->
+    <section class="how-it-works-section">
+      <div class="how-it-works-grid-container">
+        <div class="how-it-works-title-section">
+          <h1>How It Works</h1>
+        </div>
+        <div class="step-one-section">
+          <div class="step-one-title-container">
+            <h1 class="number">1</h1>
+            <h1 class="title-one">Get your math up to speed</h1>
+          </div>
+          <div class="step-one-details-container">
+            <h2 class="details-text">
+              Use Khan Academy to get through Linear Algebra
+            </h2>
+            <button class="sign-up learn-more learn-why">Learn why</button>
+          </div>
+          <div class="khan-logo-image-container">
+            <div class="khan-logo-background">
+              <img src="./images/khanlogo.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="step-two-section">
+          <div class="step-two-title-container">
+            <h1 class="number">2</h1>
+            <h1 class="title-two">
+              Start mastering the computer science courses
+            </h1>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="223"
+            height="12"
+            viewBox="0 0 223 12"
+          >
+            <line
+              id="Line_58"
+              data-name="Line 58"
+              x2="211"
+              transform="translate(6 6)"
+              fill="none"
+              stroke="#707070"
+              stroke-linecap="round"
+              stroke-width="12"
+            />
+            <line
+              id="Line_59"
+              data-name="Line 59"
+              x2="55"
+              transform="translate(6 6)"
+              fill="none"
+              stroke="#d3a570"
+              stroke-linecap="round"
+              stroke-width="12"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+    <!--How The Sausage is Made-->
+    <!--Outcompete Fancy Degrees-->
+    <section class="outcompete-section">
+      <div class="outcompete-section-container">
+        <div class="outcompete-title-section">
+          <h2>Outcompete Fancy Degrees</h2>
+        </div>
+        <div class="outcompete-main">
+          <h1 class="big-text">How do I get a job?</h1>
+          <div class="internship-container">
+            <h1>Internships</h1>
+            <h1>Internships</h1>
+            <h1>Internships</h1>
+            <h1>Internships</h1>
+            <h1>Internships</h1>
+            <h1>Internships</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Internships-->
+    <section class="internships-section">
+      <div class="internships-container">
+        <h1>Internships = experience</h1>
+        <h2>Normal college kids get 1-2 internships.</h2>
+        <h2>We think you can double that.</h2>
+      </div>
+    </section>
+    <!--Join Ulim-->
+    <section class="join-ulim-section">
+      <div class="join-ulim-container">
+        <h1>Join ulim</h1>
+        <h2>Become the best intern.</h2>
+        <div class="ulim-top-mock-container">
+          <div class="top-mock"></div>
+        </div>
+      </div>
+    </section>
+    <!--Ulim Features-->
+    <section class="ulim-features-section">
+      <div class="ulim-big-container">
+        <div class="ulim-features-container">
+          <div class="feature-container">
+            <div class="feature">
+              <h1>Join other students</h1>
+            </div>
+            <div class="feature-description">
+              <p>
+                Connect with other students and get inspiration from what they
+                are working on.
+              </p>
+            </div>
+          </div>
+          <div class="feature-container">
+            <div class="feature">
+              <h1>Build out your portfolio</h1>
+            </div>
+            <div class="feature-description">
+              <p>Everything you're working on stored all in one place.</p>
+            </div>
+          </div>
+          <div class="feature-container">
+            <div class="feature">
+              <h1>Fix the exhaust port</h1>
+            </div>
+            <div class="feature-description">
+              <p>
+                See where you could be stronger by looking at accepted and
+                rejected CVs at your dream company.
+              </p>
+            </div>
+          </div>
+          <div class="feature-container">
+            <div class="feature">
+              <h1>Rack up internships</h1>
+            </div>
+            <div class="feature-description">
+              <p>Easily apply and take any pre-interview assessments.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ulim-mockups-container">
+          <div class="mockup-container"></div>
+        </div>
+      </div>
+    </section>
+    <!--Mission-->
+    <section class="mission-section">
+      <div class="mission-container">
+        <div class="mission-messaging">
+          <h1>
+            Learning became free with the Internet, but education got more
+            expensive.
+          </h1>
+          <h1>We wanted to change that.</h1>
+          <h1>We built the version of college we wish existed.</h1>
+        </div>
+        <div class="mission-image"></div>
+      </div>
+    </section>
+    <!--Our First Student-->
+    <section class="first-student">
+      <div class="first-student-container">
+        <h1>Our First Student</h1>
+        <h2>Changes can be hard to grasp.</h2>
+        <h2>
+          We had a student go from start to finish and document the entire
+          process.
+        </h2>
+
+        <button class="sign-up learn-more">
+          <a
+            href="https://www.youtube.com/channel/UC3j2U1n-sdUMbjCHc8J3Ekw"
+            target="_blank"
+          >
+            Watch here
+          </a>
+        </button>
+
+        <div class="first-student-image-container"></div>
+      </div>
+    </section>
+    <!--Faq-->
+    <section class="frequently-asked-question-section">
+      <div class="faq-container">
+        <h1 class="faq-title">FAQ</h1>
+        <div class="accordian-container">
+          <div class="content-container">
+            <div class="question">
+              <h1>Do I get a degree from project ulim?</h1>
+            </div>
+            <div class="answer">
+              <p>
+                No degree is given here and nothing is accredited. However, the
+                progress made on the courses and stats from going through the
+                courses is kept in the student's profile, and this profile can
+                be uploaded into ulim.
+              </p>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="question">
+              <h1>How do I get a job?</h1>
+            </div>
+            <div class="answer">
+              <p>
+                Our thinking is acquiring more internships gives you more
+                experience, which in turn makes you more desirable to employers.
+                We wanted to make an entire pipeline to support this. First, go
+                through all of the courses here. Then, build projects, and get
+                internships on ulim.
+              </p>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="question">
+              <h1>Are there grades?</h1>
+            </div>
+            <div class="answer">
+              <p>
+                We use a mastery learning approach similar to Khan Academy.
+                Thus, we do not have grades, and we recommend students achieve
+                mastery in each subject before moving onto the next, as these
+                courses build on each other.
+              </p>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="question">
+              <h1>Are there any age requirements?</h1>
+            </div>
+            <div class="answer">
+              <p>
+                Nope. Age is just a number. Joking aside, as long as a student's
+                math skills reach the recommended prerequisite knowledge they
+                can charge valiantly into these courses!
+              </p>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="question">
+              <h1>Are you associated with MIT or Khan Academy?</h1>
+            </div>
+            <div class="answer">
+              <p>
+                Nope. We loved the format of Khan Academy courses, and wanted to
+                implement these here to have a consistent learning experience
+                from start to finish. Plus, they do have the best learning
+                experience in the world. Additionally, MIT OCW content is under
+                a Creative Commons License, so we are not directly affiliated
+                with them, but their content is attributed throughout.
+              </p>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="question">
+              <h1>What about a college experience?</h1>
+            </div>
+            <div class="answer">
+              <p>
+                We have big plans for this in the future. Isn't a college
+                experience simply young people living together in a specific
+                location? Why not have the option to live anywhere, on a campus
+                or not, with other people curious about the same things? More on
+                this in the future.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <section class="footer-section">
+      <div class="footer-container">
+        <div class="company-details-container">
+          <div class="logo-container">
+            <h1 class="projectulim">project ulim</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18.19"
+              height="31"
+              viewBox="0 0 18.19 31"
+            >
+              <g
+                id="Group_1"
+                data-name="Group 1"
+                transform="translate(5.43 5.5)"
+              >
+                <path
+                  id="Path_1"
+                  data-name="Path 1"
+                  d="M1789,906.828a2.24,2.24,0,1,0,4.426,0V883.641a2.262,2.262,0,0,1,4.524,0l2.11.017"
+                  transform="translate(-1792.93 -885.417)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-miterlimit="10"
+                  stroke-width="3"
+                />
+                <path
+                  id="Path_2"
+                  data-name="Path 2"
+                  d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z"
+                  transform="translate(8.76 -4)"
+                  fill="#fff"
+                />
+              </g>
+            </svg>
+          </div>
+          <div class="bottom-links-section">
+            <p>2022 project ulim</p>
+            <p>Terms of Use</p>
+            <p>Privacy Policy</p>
+          </div>
+        </div>
+        <div class="links-section">
+          <p>About</p>
+          <p>Press</p>
+          <p>Our Team</p>
+          <p>Careers</p>
+        </div>
+      </div>
+    </section>
+    <script src="/app.js"></script>
+  </body>
+</html>
